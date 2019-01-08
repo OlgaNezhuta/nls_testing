@@ -1,5 +1,3 @@
-import requests
-from config import *
 from helpers.user_helpers import *
 
 LOGOUT_URI = '/Account/Logout'

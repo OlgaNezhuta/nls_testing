@@ -1,8 +1,5 @@
-import requests
-import json
 import random
 import string
-from config import *
 from helpers import *
 
 

@@ -1,6 +1,3 @@
-import requests
-import json
-from config import *
 from helpers.user_helpers import *
 from tests.test_suit_09_get_notes.get_notes_test_data import *
 

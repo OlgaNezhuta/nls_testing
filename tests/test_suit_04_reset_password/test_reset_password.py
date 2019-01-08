@@ -1,7 +1,5 @@
-import requests
-import json
-from config import *
 from tests.test_suit_04_reset_password.reset_password_test_data import *
+from helpers.user_helpers import *
 
 RESET_PASSWORD_URI = '/Account/ResetPassword'
 

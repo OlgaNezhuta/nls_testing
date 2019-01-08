@@ -1,6 +1,3 @@
-import requests
-import json
-from config import *
 from helpers.user_helpers import *
 
 REFRESH_TOKEN_URI = '/Account/RefreshToken'

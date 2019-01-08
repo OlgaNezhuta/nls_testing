@@ -1,7 +1,5 @@
 import requests
 import json
-import random
-import string
 from config import *
 
 
@@ -10,6 +8,8 @@ LOGIN_CREDS = {"email": "olga.nezhuta.cr@gmail.com",
                "password": "qwerty"}
 LOGOUT_URI = '/account/logout'
 SAVE_NOTE_URI = '/Note/Save'
+TIMETABLE_URI = '/Timetable/Run'
+
 
 def login(creds):
     url = BASE_URL + LOGIN_URI
@@ -47,5 +47,8 @@ def logout(token):
     r = requests.delete(url, headers=headers)
     print(r.status_code)
     assert r.status_code == SUCCESS_STATUS_CODE
+
+
+
 
 

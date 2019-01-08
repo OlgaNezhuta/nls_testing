@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42003595-6286-42d9-9178-fc7d18c5143d" name="Default Changelist" comment="" />
+    <list default="true" id="42003595-6286-42d9-9178-fc7d18c5143d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_12_run_timetable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_13_get_daily_info/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_14_get_statistic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_15_get_recommended/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_16_disable_current_timetable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_17_get_current_timetable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_18_get_phq9/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_19_get_phq9_result/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suit_20_add_result/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generators/notes_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generators/notes_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generators/timetable_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generators/timetable_test_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/user_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/user_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_02_login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_02_login/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_03_logout/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_03_logout/test_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_04_reset_password/test_reset_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_04_reset_password/test_reset_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_07_save_additional_info/test_save_additional_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_07_save_additional_info/test_save_additional_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_08_refresh_token/test_refresh_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_08_refresh_token/test_refresh_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_suit_11_delete_note/test_delete_note.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_suit_11_delete_note/test_delete_note.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,119 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers/user_helpers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_suit_11_delete_note/test_delete_note.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_generators/notes_generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_suit_10_save_note/save_note_test_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_suit_09_get_notes/get_notes_test_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_generators/timetable_generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,13 +46,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/helpers/__init__.py" />
-        <option value="$PROJECT_DIR$/data_generators/timetable_test_data.py" />
-        <option value="$PROJECT_DIR$/data_generators/__init__.py" />
-        <option value="$PROJECT_DIR$/data_generators/notes_generator.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/tests/registration/registration_test_data.py" />
         <option value="$PROJECT_DIR$/tests/registration/__init__.py" />
@@ -146,25 +62,42 @@
         <option value="$PROJECT_DIR$/tests/test_suit_01_registration/registration_test_data.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_01_registration/test_registration.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_02_login/login_test_data.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_02_login/test_login.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_03_logout/test_logout.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_04_reset_password/test_reset_password.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_04_reset_password/reset_password_test_data.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_05_change_password/change_password_test_data.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_07_save_additional_info/save_additional_info_test_data.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_07_save_additional_info/test_save_additional_info.py" />
-        <option value="$PROJECT_DIR$/data_generators/timetable_generator.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_08_refresh_token/test_refresh_token.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/test_suit_09_get_notes/get_notes_test_data.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_10_save_note/save_note_test_data.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py" />
-        <option value="$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_12_add_result/test_add_result.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_12_add_result/add_result_test_data.py" />
+        <option value="$PROJECT_DIR$/data_generators/timetable_test_data.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py" />
+        <option value="$PROJECT_DIR$/data_generators/timetable_generator.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_14_get_statistic/test_get_statistic.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_12_run_timetable/run_timetable_test_data.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_15_get_recomended/test_get_recommended.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_13_get_daily_info/test_get_daily_info.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_15_get_recommended/test_get_recommended.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_17_get_current_timetable/test_get_current_timetable.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_18_get_phq9/test_get_phq9.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_19_get_phq9_result/test_get_phq9_result.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_20_add_result/add_result_test_data.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_20_add_result/test_add_result.py" />
         <option value="$PROJECT_DIR$/helpers/user_helpers.py" />
+        <option value="$PROJECT_DIR$/data_generators/__init__.py" />
+        <option value="$PROJECT_DIR$/data_generators/notes_generator.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_02_login/test_login.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_03_logout/test_logout.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_04_reset_password/test_reset_password.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_07_save_additional_info/test_save_additional_info.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_08_refresh_token/test_refresh_token.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py" />
         <option value="$PROJECT_DIR$/tests/test_suit_11_delete_note/test_delete_note.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_12_run_timetable/test_run_timetable.py" />
+        <option value="$PROJECT_DIR$/tests/test_suit_16_disable_current_timetable/test_disable_current_timetable.py" />
       </list>
     </option>
   </component>
@@ -179,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,28 +122,13 @@
             <path>
               <item name="nls_testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="nls_testing" type="462c0819:PsiDirectoryNode" />
-              <item name="data_generators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nls_testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nls_testing" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nls_testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nls_testing" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nls_testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nls_testing" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_suit_01_registration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,95 +146,89 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_delete_note.py">
-    <configuration name="user_helpers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="nls_testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/user_helpers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_change_password.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_add_result.py">
+    <configuration name="pytest in test_add_result.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nls_testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_05_change_password" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_20_add_result" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_20_add_result/test_add_result.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_delete_note.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_disable_current_timetable.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nls_testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_11_delete_note" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_16_disable_current_timetable" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_11_delete_note/test_delete_note.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_16_disable_current_timetable/test_disable_current_timetable.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_get_notes.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_get_current_timetable.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nls_testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_09_get_notes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_17_get_current_timetable" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_17_get_current_timetable/test_get_current_timetable.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_save_note.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_get_phq9.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nls_testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_10_save_note" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_18_get_phq9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_18_get_phq9/test_get_phq9.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_get_phq9_result.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nls_testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_suit_19_get_phq9_result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_suit_19_get_phq9_result/test_get_phq9_result.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_delete_note.py" />
-        <item itemvalue="Python.user_helpers" />
-        <item itemvalue="Python tests.pytest in test_save_note.py" />
-        <item itemvalue="Python tests.pytest in test_change_password.py" />
-        <item itemvalue="Python tests.pytest in test_get_notes.py" />
+        <item itemvalue="Python tests.pytest in test_add_result.py" />
+        <item itemvalue="Python tests.pytest in test_get_phq9_result.py" />
+        <item itemvalue="Python tests.pytest in test_get_phq9.py" />
+        <item itemvalue="Python tests.pytest in test_get_current_timetable.py" />
+        <item itemvalue="Python tests.pytest in test_disable_current_timetable.py" />
       </list>
     </recent_temporary>
   </component>
@@ -335,40 +246,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_change_password_py - 2019.01.04 at 18h 26m 03s.xml">
-      <configuration name="pytest in test_change_password.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 26m 24s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_save_note_py - 2019.01.04 at 18h 49m 55s.xml">
-      <configuration name="pytest in test_save_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 29m 20s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_save_note_py - 2019.01.04 at 18h 51m 08s.xml">
-      <configuration name="pytest in test_save_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 29m 46s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_save_note_py - 2019.01.04 at 18h 52m 19s.xml">
-      <configuration name="pytest in test_save_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 30m 15s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_save_note_py - 2019.01.04 at 18h 53m 51s.xml">
-      <configuration name="pytest in test_save_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 30m 34s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_save_note_py - 2019.01.04 at 18h 56m 27s.xml">
-      <configuration name="pytest in test_save_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 31m 08s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_delete_note_py - 2019.01.04 at 19h 17m 35s.xml">
-      <configuration name="pytest in test_delete_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 31m 25s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_delete_note_py - 2019.01.04 at 19h 19m 35s.xml">
-      <configuration name="pytest in test_delete_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 31m 46s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_delete_note_py - 2019.01.04 at 19h 21m 24s.xml">
-      <configuration name="pytest in test_delete_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 32m 14s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_delete_note_py - 2019.01.04 at 19h 22m 02s.xml">
-      <configuration name="pytest in test_delete_note.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add_result_py - 2019.01.08 at 18h 32m 55s.xml">
+      <configuration name="pytest in test_add_result.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1402" y="-11" width="1885" height="1092" extended-state="6" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17258064" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41274816" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295099" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295099" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17258064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -386,7 +316,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
@@ -406,36 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_01_registration/test_registration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_generators/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_04_reset_password/test_reset_password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,54 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_02_login/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_suit_05_change_password/change_password_test_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_03_logout/test_logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_07_save_additional_info/test_save_additional_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_07_save_additional_info/save_additional_info_test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="374" selection-start-line="374" selection-end-line="374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_generators/timetable_test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -518,6 +374,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_10_save_note/save_note_test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_suit_09_get_notes/get_notes_test_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -525,106 +388,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_08_refresh_token/test_refresh_token.py">
+    <entry file="file://$PROJECT_DIR$/data_generators/timetable_test_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2730">
+          <caret line="255" column="1" lean-forward="true" selection-start-line="255" selection-start-column="1" selection-end-line="255" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_12_run_timetable/run_timetable_test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_20_add_result/add_result_test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_generators/timetable_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="390">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py">
+    <entry file="file://$PROJECT_DIR$/data_generators/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_generators/notes_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_10_save_note/save_note_test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/user_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_01_registration/test_registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_02_login/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#1#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_03_logout/test_logout.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_06_complete_tutorial/test_complete_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_05_change_password/test_change_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#5#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_04_reset_password/test_reset_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#1#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_07_save_additional_info/save_additional_info_test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_07_save_additional_info/test_save_additional_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_08_refresh_token/test_refresh_token.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_09_get_notes/test_get_notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_10_save_note/test_save_note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_suit_11_delete_note/test_delete_note.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_12_run_timetable/test_run_timetable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#6#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_13_get_daily_info/test_get_daily_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_14_get_statistic/test_get_statistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_15_get_recommended/test_get_recommended.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_16_disable_current_timetable/test_disable_current_timetable.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_17_get_current_timetable/test_get_current_timetable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_18_get_phq9/test_get_phq9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_19_get_phq9_result/test_get_phq9_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suit_20_add_result/test_add_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

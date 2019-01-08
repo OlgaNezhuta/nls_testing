@@ -1,7 +1,5 @@
-import requests
-import json
-from config import *
 from tests.test_suit_02_login.login_test_data import *
+from helpers.user_helpers import *
 
 LOGIN_URI = '/Account/Login'
 EMAIL_IS_NOT_CONFIRMED_STATUS_CODE = 405

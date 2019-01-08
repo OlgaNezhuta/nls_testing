@@ -1,6 +1,3 @@
-import requests
-import json
-from config import *
 from helpers.user_helpers import *
 
 COMPLETE_TUTORIAL_URI = '/Account/CompleteTutorial'
