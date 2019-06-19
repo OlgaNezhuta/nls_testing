@@ -1,4 +1,5 @@
 from helpers.user_helpers import *
+from models.refresh_token_models import *
 
 REFRESH_TOKEN_URI = '/Account/RefreshToken'
 
@@ -10,6 +11,7 @@ def test_01_refresh_token_with_correct_creds():
     r = requests.post(url, data=json.dumps({"refreshToken": refresh}), headers=BASE_HEADERS)
     print(r.status_code)
     assert r.status_code == SUCCESS_STATUS_CODE
+    assert RefreshTokenSuccess(r.json()).data.type == "Bearer"
 
 
 def test_02_refresh_token_with_incorrect_creds():
@@ -21,6 +23,8 @@ def test_02_refresh_token_with_incorrect_creds():
                                            "c2VyIiwibmJmIjoxNTQ2NTM0OTk5LCJleHAiOjE1NDkxMjY5OTksImlzcyI6Ik5MU0F1dGhTZXJ2ZXIiLCJhdWQiOiJDbGllbnQifQ"
                                            ".KrCpQPj5ohTtj8Yx9dFwQSb4-C9_gBSsc__MB1zxZU8"}), headers=BASE_HEADERS)
     print(r.status_code)
-    assert r.status_code == BAD_REQUEST_STATUS_CODE
+    assert ErrorResponse(r.json()).code == BAD_REQUEST_STATUS_CODE
+    assert ErrorResponse(r.json()).message == "Bad request"
+
 
 

@@ -1,29 +1,40 @@
-correct_email = {
-    "email": "olga.nezhuta.cr@gmail.com"
+valid_creds = {
+    "email": "olga.nezhuta.cr@gmail.com",
+    "message": "Reset password link has been sent on your email"
 }
 
 
-incorrect_emails = [
+invalid_creds = [
 {
-  "email": "olgaexample.com"
+  "email": "olgaexample.com",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
-  "email": ""
+  "email": "",
+  "expected_error": "Email address field is empty",
+  "status_code": 400
 },
 {
-  "email": "         "
+  "email": "         ",
+  "expected_error": "Email address field is empty",
+  "status_code": 400
 },
 {
-  "email": "olga olga@example.com"
+  "email": "olga olga@example.com",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
-  "email": "olga@example"
+  "email": "olga@example",
+  "expected_error": "Email doesn’t exist",
+  "status_code": 400
+},
+{
+  "email": "olgaemailisnotconfirmed@example.com",
+  "expected_error": "Email is not confirmed",
+  "status_code": 400
 }
 ]
-
-
-email_is_not_confirmed = {
-  "email": "olgaemailisnotconfirmed@example.com"
-}
 
 

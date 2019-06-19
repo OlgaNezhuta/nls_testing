@@ -30,7 +30,7 @@ valid_creds = [
   "repeatPassword": "string"
 },
 {
-  "email": "olga2@example.com",
+  "email": "olga7@example.com",
   "password": "qwertyuiopqwerty",
   "repeatPassword": "qwertyuiopqwerty"
 },
@@ -61,63 +61,86 @@ invalid_creds = [
 {
   "email": "olgaexample.com",
   "password": "string",
-  "repeatPassword": "string"
+  "repeatPassword": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "",
   "password": "string",
-  "repeatPassword": "string"
+  "repeatPassword": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "         ",
   "password": "string",
-  "repeatPassword": "string"
+  "repeatPassword": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "olga olga@example.com",
   "password": "string",
-  "repeatPassword": "string"
+  "repeatPassword": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
   "password": "strin",
-  "repeatPassword": "strin"
+  "repeatPassword": "strin",
+  "expected_error": "Password doesn’t meet length validation criteria",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
   "password": "qwertyuiopqwertyu",
-  "repeatPassword": "qwertyuiopqwertyu"
+  "repeatPassword": "qwertyuiopqwertyu",
+  "expected_error": "Password doesn’t meet length validation criteria",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
   "password": "      ",
-  "repeatPassword": "      "
+  "repeatPassword": "      ",
+  "expected_error": "Password should not contain spaces",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
   "password": "string string",
-  "repeatPassword": "string string"
+  "repeatPassword": "string string",
+  "expected_error": "Password should not contain spaces",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
   "password": "",
-  "repeatPassword": "string"
+  "repeatPassword": "string",
+  "expected_error": "Password doesn’t meet length validation criteria",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
   "password": "string",
-  "repeatPassword": ""
+  "repeatPassword": "",
+  "expected_error": "Repeat password doesn’t match password",
+  "status_code": 400
 },
 {
   "email": "olga#olga@example.com",
   "password": "string",
-  "repeatPassword": "stringqwertt"
-}
-]
-
-existing_creds = {
+  "repeatPassword": "stringqwertt",
+  "expected_error": "Repeat password doesn’t match password",
+  "status_code": 400
+},
+{
   "email": "olga.nezhuta.cr@gmail.com",
   "password": "qwerty",
-  "repeatPassword": "qwerty"
+  "repeatPassword": "qwerty",
+  "expected_error": "Email address already registered",
+  "status_code": 422
 }
+]
 

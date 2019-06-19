@@ -24,7 +24,7 @@ valid_creds = [
   "password": "string"
 },
 {
-  "email": "olga2@example.com",
+  "email": "olga7@example.com",
   "password": "qwertyuiopqwerty"
 },
 {
@@ -45,48 +45,68 @@ valid_creds = [
 }
 ]
 
+
 invalid_creds = [
 {
   "email": "olgaexample.com",
-  "password": "string"
+  "password": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "",
-  "password": "string"
+  "password": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "         ",
-  "password": "string"
+  "password": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "olga olga@example.com",
-  "password": "string"
+  "password": "string",
+  "expected_error": "Email address is not in valid format",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
-  "password": "strin"
+  "password": "strin",
+  "expected_error": "Password doesn’t meet length validation criteria",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
-  "password": "qwertyuiopqwertyu"
+  "password": "qwertyuiopqwertyu",
+  "expected_error": "Password doesn’t meet length validation criteria",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
-  "password": "      "
+  "password": "      ",
+  "expected_error": "Password field is empty",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
-  "password": "string string"
+  "password": "string string",
+  "expected_error": "Incorrect email or password",
+  "status_code": 400
 },
 {
   "email": "olga@example.com",
-  "password": ""
+  "password": "",
+  "expected_error": "Password doesn’t meet length validation criteria",
+  "status_code": 400
+},
+{
+  "email": "olgaemailisnotconfirmed@example.com",
+  "password": "string",
+  "expected_error": "Email is not confirmed",
+  "status_code": 405
 }
 ]
-
-email_is_not_confirmed_creds = {
-  "email": "olgaemailisnotconfirmed@example.com",
-  "password": "string"
-}
 
 

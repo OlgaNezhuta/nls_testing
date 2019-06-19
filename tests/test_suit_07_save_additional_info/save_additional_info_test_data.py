@@ -189,7 +189,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "qwertyuiopqwertyuiopqwertyuiopq",
@@ -198,7 +199,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "@#$%",
@@ -207,7 +209,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "123456",
@@ -216,7 +219,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "     ",
@@ -225,7 +229,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "string string",
@@ -234,7 +239,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "string-string",
@@ -243,7 +249,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "First name is not in valid format"
 },
 {
   "firstName": "string",
@@ -252,7 +259,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -261,7 +269,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -270,7 +279,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -279,7 +289,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -288,7 +299,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -297,7 +309,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -306,7 +319,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Last name is not in valid format"
 },
 {
   "firstName": "string",
@@ -315,7 +329,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Age is not in valid format"
 },
 {
   "firstName": "string",
@@ -324,7 +339,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Age is not in valid format"
 },
 {
   "firstName": "string",
@@ -333,7 +349,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Age is not in valid format"
 },
 {
   "firstName": "string",
@@ -342,7 +359,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 1000,
   "lifestyle": "Healthy",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Weight is not in valid format"
 },
 {
   "firstName": "string",
@@ -351,7 +369,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "string",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Lifestyle is not in valid format"
 },
 {
   "firstName": "string",
@@ -360,7 +379,8 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "67687",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Lifestyle is not in valid format"
 },
 {
   "firstName": "string",
@@ -369,6 +389,7 @@ invalid_creds = [
   "gender": "Male",
   "weight": 100,
   "lifestyle": "#$%^&",
-  "sleepingTrouble": True
+  "sleepingTrouble": True,
+  "expected_error": "Lifestyle is not in valid format"
 }
 ]
